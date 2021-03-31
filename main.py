@@ -1,10 +1,16 @@
 #-*-coding:utf-8-*-
+import os
 try:
  import os,requests, inquirer
  import sys
  import time
  from bs4 import BeautifulSoup as bs
 except: os.system("pip2 install requests inquirer bs4")
+import os,requests, inquirer
+import sys
+import time
+from bs4 import BeautifulSoup as bs
+
 qu = '\033[0;36m'
 hi = '\033[0;32m'
 pu = '\033[0;37m'
